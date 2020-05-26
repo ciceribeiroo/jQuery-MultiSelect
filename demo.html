@@ -11,8 +11,8 @@
 
 </head>
 <body>
-        <div class="col-md-6">
-            <select name="basic[]" multiple="multiple" class="3col active">
+        <div class="col-md-4">
+            <select name="basic[]" multiple="multiple" class="2col active">
                 <option value="AL">Alabama</option>
                 <option value="AK">Alaska</option>
                 <option value="AZ">Arizona</option>
@@ -68,12 +68,12 @@
 
     <script>
     $(function () {
-        $('select[multiple].active.3col').multiselect({
-            columns: 3,
+        $('select[multiple].active.2col').multiselect({
+            columns: 2,
             placeholder: 'Selecione',
             search: true,
             searchOptions: {
-                'default': 'Pesquise'
+                'default': 'Buscar por...'
             },
             selectAll: true
         });
