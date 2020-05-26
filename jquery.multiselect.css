@@ -1,3 +1,9 @@
+.body{
+    background-color: grey !important;
+}
+.container{
+    background-color: #808080;
+}
 .ms-options-wrap,
 .ms-options-wrap * {
     box-sizing: border-box;
@@ -9,11 +15,11 @@
     width: 100%;
     text-align: left;
     border: 1px solid #aaa;
-    background-color: #fff;
+    background-color: rgb(245, 245, 245);
     padding: 5px 20px 5px 5px;
     margin-top: 1px;
-    font-size: 13px;
-    color: #aaa;
+    font-size: 16px;
+    color: rgb(122, 122, 122);
     outline-offset: -2px;
     white-space: nowrap;
 }
@@ -71,12 +77,12 @@
 
 .ms-options-wrap > .ms-options .ms-selectall {
     display: inline-block;
-    font-size: .9em;
+    font-size: 1em;
     text-transform: lowercase;
     text-decoration: none;
 }
 .ms-options-wrap > .ms-options .ms-selectall:hover {
-    text-decoration: underline;
+    text-decoration: bold;
 }
 
 .ms-options-wrap > .ms-options > .ms-selectall.global {
